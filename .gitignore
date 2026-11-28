@@ -1,0 +1,22 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+
+# Frontend build output
+.next/
+dist/
+.turbo/
+
+# Secrets & keypairs
+.env
+.env.*
+!.env.example
+*-keypair.json
+
+# Local docs
+docs/
